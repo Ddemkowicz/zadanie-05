@@ -9,10 +9,10 @@ const SharedLayout = props => {
     <Container>
       <Header>
         <nav>
-          <Link onClick={trendingMovies} to="/">
+          <Link onClick={trendingMovies} to="/zadanie-05/">
             Home
           </Link>
-          <Link onClick={resetMovies} to="/movies">
+          <Link onClick={resetMovies} to="/zadanie-05/movies">
             Movies
           </Link>
         </nav>
