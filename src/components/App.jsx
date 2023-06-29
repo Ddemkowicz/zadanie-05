@@ -19,7 +19,7 @@ export const App = () => {
   return (
     <Routes>
       <Route
-        path="/zadanie-05"
+        path="/zadanie-05/"
         element={<SharedLayout resetMovies={resetMovies} />}
       >
         <Route
