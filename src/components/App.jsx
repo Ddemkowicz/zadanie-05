@@ -18,7 +18,10 @@ export const App = () => {
 
   return (
     <Routes>
-      <Route path="/" element={<SharedLayout resetMovies={resetMovies} />}>
+      <Route
+        path="/zadanie-05"
+        element={<SharedLayout resetMovies={resetMovies} />}
+      >
         <Route
           index
           element={
